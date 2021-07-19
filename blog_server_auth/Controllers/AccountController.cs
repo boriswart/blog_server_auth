@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace blog_server_auth.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/api/[controller]")]
     public class AccountController : ControllerBase
     {
         private readonly AccountService _accountService;
